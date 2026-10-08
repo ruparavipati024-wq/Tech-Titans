@@ -1,0 +1,317 @@
+Build a modern, responsive web application prototype called **“CampusConnect – Smart Campus Companion”** based on this project idea.
+
+### Main Goal
+
+CampusConnect is a single platform where students register once and can discover and participate in events from their own college and other colleges. Students can view event details, faculty coordinators, venue, participation steps, register for events, earn credits, maintain participation streaks, and unlock badges/certificates.
+
+The prototype should look like a **real working college technology platform**, not a simple static website.
+
+### Design
+
+* Modern futuristic college-tech UI
+* Clean and professional
+* Responsive for laptop and mobile
+* Use a dark blue/purple/white theme with attractive gradients
+* Rounded cards, subtle shadows and smooth hover animations
+* Use icons for events, credits, badges, map, clubs, booking and lost & found
+* Add a top navigation bar and sidebar/dashboard navigation
+* Make the interface easy for first-year college students to understand
+
+### 1. Landing Page
+
+Create:
+
+* CampusConnect logo/name
+* Tagline: **“One Platform. Better Communication. Smarter Campus.”**
+* Short description
+* “Get Started” button
+* “Login” button
+* Preview cards showing Events, Credits, Campus Map and Clubs
+
+### 2. Student Registration
+
+Create a registration form with:
+
+* Full Name
+* Roll Number
+* Department
+* Year
+* College Email
+* Password
+* Create My Profile button
+
+After registration, automatically take the student to the dashboard.
+
+### 3. Student Dashboard
+
+Create a personalized dashboard showing:
+
+* Student name
+* Department and year
+* Total Credits
+* Current Participation Streak
+* Badges Earned
+* Upcoming Registered Events
+* Recommended Events
+
+Example:
+Name: Rupa Krishnasri
+Department: CSE
+Year: 1st Year
+Credits: 13
+Streak: 3
+Badges: 2
+
+Add a progress card:
+**“7 more credits for your next certificate”**
+
+### 4. Events Page
+
+Create an event discovery page with filters:
+
+* All
+* Tech
+* Cultural
+* Sports
+* Workshops
+* Other Colleges
+
+Each event should appear as a card containing:
+
+* Event name
+* College
+* Date
+* Time
+* Venue
+* Faculty coordinator
+* Event category
+* Short description
+* “How to Participate”
+* “Register Now” button
+
+Use sample events such as:
+
+**Bytebizz 2K26 – WebGenZ**
+
+* College: Other College
+* Venue: CSBS Block
+* Faculty: Dr. K. Rao
+* Category: Tech
+
+**Inter-College Cultural Fest**
+
+* College: KL University
+* Venue: Main Auditorium
+* Faculty: Ms. A. Devi
+* Category: Cultural
+
+When the user clicks “How to Participate”, open a modal showing simple participation steps.
+
+### 5. Event Registration
+
+When the student clicks “Register Now”:
+
+* Show confirmation modal
+* Display event details
+* Show participation steps
+* Confirm Registration button
+* After confirmation, change button to **“Registered ✓”**
+* Add the event to “My Events”
+
+### 6. Faculty and Participation Details
+
+Every event should clearly show:
+
+* Faculty in charge
+* Venue
+* Date/time
+* Participation requirements
+* Registration deadline
+* Steps to participate
+
+Create a simple event-detail page/modal.
+
+### 7. Credits, Streaks and Badges
+
+Create a gamification section.
+
+Students earn credits after faculty confirms attendance.
+
+Show:
+
+* Total Credits
+* Current Streak
+* Longest Streak
+* Badges
+* Certificate progress
+
+Example badges:
+
+* First Event
+* Tech Explorer
+* Cultural Star
+* 3-Day Streak
+* Campus Champion
+
+Create attractive badge cards.
+
+### 8. Faculty Confirmation Simulation
+
+Create a simple prototype-only faculty confirmation feature.
+
+Faculty dashboard should show:
+
+* Registered students
+* Event name
+* Attendance status
+* “Confirm Attendance” button
+
+When attendance is confirmed:
+
+* Student receives credits
+* Participation count increases
+* Streak updates
+* Badge can be unlocked
+
+This can be simulated using frontend state/local storage. No real backend is required.
+
+### 9. Campus Map
+
+Create a campus map page.
+
+Show a stylized interactive campus map with locations such as:
+
+* Main Auditorium
+* CSBS Block
+* Computer Lab
+* Sports Ground
+* Seminar Hall
+* Library
+* Cafeteria
+
+When a student clicks a location, display:
+
+* Building name
+* Available facilities
+* Events happening there
+
+### 10. Club Pages
+
+Create a Clubs section where students can:
+
+* Discover college clubs
+* View club description
+* See upcoming club activities
+* Join a club
+
+Sample clubs:
+
+* Coding Club
+* Robotics Club
+* Cultural Club
+* Photography Club
+* Sports Club
+
+Add a **Join Club** button.
+
+### 11. Facility Booking
+
+Create a facility-booking page.
+
+Students can book:
+
+* Labs
+* Seminar halls
+* Sports courts
+* Meeting rooms
+
+Show:
+
+* Facility name
+* Available time slots
+* Book button
+* Booking status
+
+Prevent double booking in the prototype by disabling already-booked slots.
+
+### 12. Lost & Found
+
+Create a Lost & Found page.
+
+Students can:
+
+* Report a lost item
+* Report a found item
+* Browse reported items
+
+Fields:
+
+* Item name
+* Description
+* Location
+* Date
+* Contact information
+* Lost/Found status
+
+Add search and category filters.
+
+### 13. My Profile
+
+Create a profile page showing:
+
+* Student name
+* Roll number
+* Department
+* Year
+* College email
+* Credits
+* Streak
+* Badges
+* Events attended
+
+Allow editing profile information.
+
+### 14. Navigation
+
+Create a sidebar/top navigation with:
+
+Dashboard
+Events
+My Events
+Campus Map
+Clubs
+Facility Booking
+Lost & Found
+Credits & Badges
+Profile
+Logout
+
+### 15. Prototype Data
+
+Use realistic sample data so the prototype looks populated immediately.
+
+Important:
+
+* Make all major buttons functional.
+* Use frontend state/local storage for registration, event registration, attendance, credits and bookings.
+* No need for real authentication or database.
+* Add loading states, empty states and success notifications.
+* Add smooth transitions and hover effects.
+* Make the prototype presentation-ready for a college hackathon.
+
+### Important Hackathon Demo Flow
+
+The main demo should work in this order:
+
+Landing Page → Student Registration → Dashboard → Browse Events → Open Event Details → View Faculty & Participation Steps → Register → My Events → Faculty Confirms Attendance → Credits Increase → Streak/Badge Update → Campus Map → Club → Facility Booking → Lost & Found.
+
+Make this flow extremely smooth because the website will be demonstrated live during the hackathon.
+
+### Branding
+
+Project name: **CampusConnect**
+Theme: **Campus 2.0**
+Tagline: **“One Platform. Better Communication. Smarter Campus.”**
+Team Name: **Tech Titans**
+
+Build the complete frontend prototype with polished UI and realistic interactions.
